@@ -10,5 +10,6 @@ deploy:
   region: us-east-1
   app: travis-eb-demo
   env: travis-eb-demo-env
+  bucket_name: travis-eb-demo-bucket
   on:
     repo: BlakeGuilloud/travis-eb-demo
