@@ -8,8 +8,8 @@ deploy:
   secret_access_key:
     secure: fzdevkmKlnWp/MrUWI4mU1BfUrAQzfIfD6I2V/BQXNNs7bP454hh63PrR+iwYsYjKomt60aVJ5dBmbwz7fMgE3gZ+EhdHetR80pjBx7iWN0R2fO8PjPzopyQhIjIl4aKhKEx+/V6qoIuq/VLRn0dUBPg74JfutvQBY3MjXWQ/4WlVRAX2KVAUMKJym7kYcfJF3jnTIGV9irJ1vjr/LL2b0Ns5izqYipKJVyBls19Kb4UP1prBE9HN6oC9iVnPu1+raZE/R548dcym3/67lIRgbswMF25g+X6dU3l/MVHOqJxlvDzrJ3nGQOf3sy/FQxw8C5FB7CquBYbbHTVb/vQsvS+x/brzh6XoWR3pO70VKCh9erXa+ealkDtAP+i6Kp0mQy5WrHDp7kzkMVbcOW//Lfu6U4guLerQyAj+HtFV/efffg9UKdmj56nKim21upBx1dPxMGM2CdAclx7UGOF84n2W4sAzffydUbWGkpWjFV4wwF8nz4N40Kt0/UQ4sdRBlaFIZ0EjE4iDy8It6klVZ+jb9KDxU0JWc3nz+WvAJEdrVExzUAaYMQoo+HMUyP/ROzVQewIGqLYX9Sd0bJZ1OgPA0pg5L700iO8AM2JV52OQJzeDV9Ed60EgOEyQVFgjjQYkoxrI/Teba7fW1droEpUIGXm9zYHtWVZjvZ/bQ4=
   region: us-east-1
-  app: My First Elastic Beanstalk Application
-  env: travis-eb-demo
+  app: travis-eb-demo
+  env: travisEbDemo-env
   bucket_name: travis-eb-demo-bucket
   on:
     repo: BlakeGuilloud/travis-eb-demo
